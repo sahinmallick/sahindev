@@ -158,3 +158,25 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
+emailjs.init("uMaCPEiqPWohAPpES");
+
+document.getElementById("contactForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const params = {
+    from_name: document.getElementById("name").value,
+    from_email: document.getElementById("email").value,
+    message: document.getElementById("message").value,
+  };
+
+  emailjs
+    .send("service_1ove21q", "template_40x8x6f", params)
+    .then(() => {
+      alert("Message sent successfully!");
+      document.getElementById("contactForm").reset();
+    })
+    .catch((err) => {
+      alert("Failed to send message!");
+      console.log(err);
+    });
+});
