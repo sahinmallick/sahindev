@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sahin Mallick - Full Stack Web Developer</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/dp.png" alt="Sahin Mallick" class="avatar-img" />
+        </figure>
+
+
+        <div class="info-content">
+          <h1 class="name" title="Sahin Mallick">Sahin Mallick</h1>
+          <p class="title">Full-Stack Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:sahinmallick14@gmail.com" class="contact-link">hi@sahinmallick.tech</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+916296795257" class="contact-link">+91 62967 95257</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Role</p>
+              <time datetime="2026-01-01">Software Engineer</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Kolkata, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/sahinmallick/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/sahinmallick" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/iamsahin03/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <div class="main-content">
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I’m Sahin Mallick — a Full-Stack Web Developer who engineers production-grade web applications with
+            performant UI,
+            scalable backend architecture, and clean, maintainable code.
+          </p>
+
+          <p>
+            I build end-to-end systems using modern stacks like React, Node.js, Express, and MongoDB—covering everything
+            from component-driven
+            frontend development and API-first backend design to JWT-based authentication, role-based access control,
+            database modeling,
+            and deployment-ready builds. If you’re looking for someone who can ship fast without compromising code
+            quality, performance,
+            and scalability—I’m the right fit.
+          </p>
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend Engineering</h4>
+
+                <p class="service-item-text">
+                  Crafting pixel-perfect, responsive interfaces with React, modern UI patterns, smooth
+                  micro-interactions, and performance-first rendering.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend & API Architecture</h4>
+
+                <p class="service-item-text">
+                  Building secure REST APIs with Node.js and Express, implementing JWT auth, RBAC, validation, and
+                  scalable database models in MongoDB.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">End-to-End Product Development</h4>
+
+                <p class="service-item-text">
+                  Delivering production-ready apps with admin dashboards, payments, file uploads, real-time workflows,
+                  and clean system design from scratch.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Deployment, Scaling & Reliability</h4>
+
+                <p class="service-item-text">
+                  Deploying on cloud + VPS with Nginx and Git workflows, optimizing load times, monitoring issues, and
+                  keeping apps stable in production.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Client Feedback" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Client Feedback</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Sahin delivered a clean and modern website with fast performance and great UI. Very professional and
+                    responsive.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Project Owner" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Project Owner</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Great communication, strong development skills, and quick bug fixing. Highly recommended for
+                    full-stack work.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Client Feedback" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Client Feedback</h4>
+
+              <time datetime="2026-01-01">January, 2026</time>
+
+              <div data-modal-text>
+                <p>
+                  Sahin delivered a clean and modern website with fast performance and great UI. Very professional and
+                  responsive.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div> -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Tech Stack</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#" title="JavaScript">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Python">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="TypeScript">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                  alt="TypeScript" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="HTML5">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="CSS3">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Markdown">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg"
+                  alt="Markdown" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="React.js">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Next.js">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                  alt="Next.js" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Node.js">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                  alt="Node.js" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Express.js">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                  alt="Express.js" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Tailwind CSS">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                  alt="Tailwind CSS" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Bootstrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                  alt="Bootstrap" />
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="#" title="daisyUI">
+                <img
+                  src="https://raw.githubusercontent.com/saadeghi/daisyui-images/master/images/daisyui-logo/favicon-192.png"
+                  alt="daisyUI" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="MongoDB">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                  alt="MongoDB" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="PostgreSQL">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                  alt="PostgreSQL" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Git">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="GitHub">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Docker">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Cloudinary">
+                <img src="https://www.svgrepo.com/show/353566/cloudinary.svg" alt="Cloudinary" />
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="#" title="AWS">
+                <img src="https://www.svgrepo.com/show/448266/aws.svg" alt="AWS" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Linux">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Postman">
+                <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" />
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="#" title="Nginx">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="Nginx" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Vercel">
+                <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" alt="Vercel" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="cPanel">
+                <img
+                  src="https://imgs.search.brave.com/6MSUHklwCzhYQE7IoYOmGTC9KCEKjc4SJ6ueT_W06XI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9icmFu/ZGxvZ29zLm5ldC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMi8w/OC9jcGFuZWwtbG9n/b19icmFuZGxvZ29z/Lm5ldF9objlqNS01/MTJ4NTEyLnBuZw"
+                  alt="cPanel" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="Shopify">
+                <img
+                  src="https://imgs.search.brave.com/YLWCLj-4t0Nh5RbOmpE2ZE0QSsngjzvxf_qUFKoGYWw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZXBuZ2xvZ29z/LmNvbS91cGxvYWRz/L3Nob3BpZnktbG9n/by1wbmcvZWNvbW1l/cmNlLXNob3BpZnkt/bG9nby1oZC0xLnBu/Zw"
+                  alt="Shopify" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" title="WordPress">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
+                  alt="WordPress" />
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B.Tech CSE (AIML)</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                Currently pursuing B.Tech in Computer Science & Engineering (Artificial Intelligence & Machine
+                Learning).
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Executive Web Developer — FFACE</h4>
+
+              <span>Feb 2025 — Jun 2025</span>
+
+              <p class="timeline-text">
+                Led end-to-end development of scalable web platforms, delivering production-grade Shopify and WordPress
+                solutions
+                using modular architecture, Liquid templating, and optimized UI workflows.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer Intern — FFACE</h4>
+
+              <span>Aug 2024 — Jan 2025</span>
+
+              <p class="timeline-text">
+                Contributed to full-stack delivery by implementing responsive UI components, debugging production
+                issues, and
+                optimizing performance across React-based applications and backend integrations.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+        <!-- <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React.js</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Node.js & Express</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MongoDB</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Firebase</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Full Stack</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Frontend</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Backend</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <!-- ✅ CodeKaroo -->
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ck.png" alt="CodeKaroo - Online Code Execution Platform" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">CodeKaroo</h3>
+                <p class="project-category">Full Stack</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cp.png" alt="Chef's Place - Restaurant POS Software" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Chef’s Place</h3>
+                <p class="project-category">Full Stack</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="full stack">
+              <a href="https://creativeshowcase.sahinmallick.tech/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cs.png" alt="CreativeHub - Digital Art & Memory Sharing Platform"
+                    loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Creative Showcase</h3>
+                <p class="project-category">Full Stack</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+      <article class="cv" data-page="cv">
+
+        <header>
+          <h2 class="h2 article-title">CV</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure style="overflow:hidden; border-radius: 16px; background: #fff;">
+            <object id="cvObject" data="./assets/cv/Sahin_Mallick_FullStackDev.pdf" type="application/pdf" width="100%"
+              height="100%" style="border: 0;">
+              <p style="padding: 18px; color: #000;">
+                Your browser can't display the PDF here.
+                <a href="./assets/cv/Sahin_Mallick_FullStackDev.pdf" target="_blank">Open CV in new tab</a>
+              </p>
+            </object>
+          </figure>
+        </section>
+
+      </article>
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="contact-info">
+
+          <ul class="contacts-list">
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+916296795257" class="contact-link">+91 6296795257</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:sahinmallick14@gmail.com" class="contact-link">sahinmallick14@gmail.com</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Kolkata, West Bengal, India</address>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="globe-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Social</p>
+
+                <div style="display: flex; gap: 14px; flex-wrap: wrap; margin-top: 6px;">
+                  <a href="https://wa.me/916296795257" class="contact-link" target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                  </a>
+
+                  <a href="#" class="contact-link" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+
+                  <a href="#" class="contact-link" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+
+                  <a href="#" class="contact-link" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!-- ✅ Contact Form -->
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
