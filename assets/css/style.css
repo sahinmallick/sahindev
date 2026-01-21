@@ -1110,7 +1110,7 @@ main {
   filter: grayscale(1) invert(1);
 }
 
-.contact-form { margin-bottom: 10px; }
+.contact-form { margin-bottom: 10px; padding-top: 20px;}
 
 .form-title { margin-bottom: 20px; }
 
